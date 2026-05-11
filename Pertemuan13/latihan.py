@@ -89,35 +89,35 @@ class HashTable:
 
 # program utama
 
-perpus = HashTable()
+data = HashTable()
 
 # insert atau nambah data awal
-perpus.insert("BK111", "Mahir C++ Dalam Satu Jam")
-perpus.insert("BK222", "Python Dasar")
-perpus.insert("BK333", "Matematika Diskrit")
-perpus.insert("BK444", "Atomic Habits")
-perpus.insert("BK555", "Algoritma Dasar")
+data.insert("BK111", "Mahir C++ Dalam Satu Jam")
+data.insert("BK222", "Python Dasar")
+data.insert("BK333", "Matematika Diskrit")
+data.insert("BK444", "Atomic Habits")
+data.insert("BK555", "Algoritma Dasar")
 
 # tampilkan isi
-perpus.display()
+data.display()
 
 # insert atau nambah data baru
-perpus.insert("BK045", "Mein Kampf")
+data.insert("BK045", "Mein Kampf")
 
 # update data atau mempperbarui data
-perpus.insert("BK111", "Bumi Manusia")
+data.insert("BK111", "Bumi Manusia")
 
 # display atautampilkan lagi
-perpus.display()
+data.display()
 
 # search atau mencari data
 print("HASIL SEARCH")
-perpus.search("BK222")
-perpus.search("BK999")
+data.search("BK222")
+data.search("BK999")
 
 # delete atau menghapus data
 print("\nHASIL DELETE")
-perpus.delete("BK333")
+data.delete("BK333")
 
 # display atau tampilkan akhir
-perpus.display()
+data.display()
